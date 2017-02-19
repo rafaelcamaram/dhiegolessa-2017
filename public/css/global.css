@@ -91,7 +91,7 @@ p {
       #events-type #event-cards-container .event-card .img-event-type {
         min-height: 59px; }
   #events-type #options {
-    margin-top: 30px; }
+    margin-top: 10px; }
     #events-type #options .a-see-more {
       color: #42334f;
       font-size: small;
@@ -99,5 +99,18 @@ p {
       #events-type #options .a-see-more:hover {
         text-decoration: underline;
         cursor: pointer; }
+
+#about-me {
+  min-height: 100vh;
+  background-color: #181b36;
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  #about-me #content {
+    width: 60%;
+    text-align: right;
+    float: right;
+    margin-top: 80px; }
 
 /*# sourceMappingURL=global.css.map */
