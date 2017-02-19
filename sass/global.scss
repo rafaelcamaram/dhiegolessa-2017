@@ -1,0 +1,14 @@
+// General
+@import '_helpers/_colors';
+@import '_helpers/_variables';
+@import '_helpers/_fonts';
+@import 'style';
+
+// Sections
+@import "_sections/main-box.scss";
+@import "_sections/event-types";
+@import "_sections/about-the-company";
+@import "_sections/about-me";
+@import "_sections/done-events";
+@import "_sections/testimonials";
+@import "_sections/footer";

@@ -1,0 +1,36 @@
+body {
+  background-color: $website-background-color;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  margin: 0 !important;
+}
+
+h1 {
+  font-size: 2.3em !important;
+
+  .highlight-title {
+    font-weight: bold;
+  }
+}
+
+h2 {
+  font-size: 1.6em !important;
+
+  .highlight-title {
+    font-weight: bold;
+  }
+}
+
+h4 {
+  font-size: 1.0em !important;
+}
+
+p {
+  font-size: 1.0em !important;
+}

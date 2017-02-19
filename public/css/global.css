@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300; }
+
+h1, h2, h3, h4 {
+  margin: 0 !important; }
+
+h1 {
+  font-size: 2.3em !important; }
+  h1 .highlight-title {
+    font-weight: bold; }
+
+h2 {
+  font-size: 1.6em !important; }
+  h2 .highlight-title {
+    font-weight: bold; }
+
+h4 {
+  font-size: 1.0em !important; }
+
+p {
+  font-size: 1.0em !important; }
+
+#main-box {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/background-banner.png); }
+  #main-box #header {
+    background-color: transparent;
+    position: absolute;
+    top: 0; }
+    @media (min-width: 993px) {
+      #main-box #header #logo {
+        margin-left: 5%; } }
+  #main-box #logo-banner {
+    margin-left: auto;
+    margin-right: auto; }
+
+#events-type {
+  width: 100%;
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center; }
+  #events-type h1 {
+    color: #42334f; }
+  #events-type p {
+    color: #68626d; }
+  #events-type #event-cards-container {
+    margin-top: 70px !important;
+    height: auto; }
+    #events-type #event-cards-container .event-card {
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 300px;
+      max-height: 300px; }
+      @media (max-width: 600px) {
+        #events-type #event-cards-container .event-card {
+          margin-bottom: 50px; } }
+      #events-type #event-cards-container .event-card:hover button {
+        -webkit-box-shadow: 0 5px 0px 0px whitesmoke;
+        box-shadow: 0 5px 0px 0px whitesmoke; }
+      #events-type #event-cards-container .event-card hr {
+        opacity: 0.2; }
+      #events-type #event-cards-container .event-card p {
+        height: auto; }
+      #events-type #event-cards-container .event-card h4 {
+        color: #68626d;
+        text-transform: uppercase;
+        font-weight: bold; }
+      #events-type #event-cards-container .event-card button {
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        border: 0;
+        color: #42334f;
+        font-size: small;
+        font-weight: bold;
+        -webkit-box-shadow: 0 5px 0 0 #e5e6e6;
+        box-shadow: 0 5px 0 0 #e5e6e6;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px; }
+        #events-type #event-cards-container .event-card button:hover {
+          text-decoration: underline; }
+      #events-type #event-cards-container .event-card .img-event-type {
+        min-height: 59px; }
+  #events-type #options {
+    margin-top: 30px; }
+    #events-type #options .a-see-more {
+      color: #42334f;
+      font-size: small;
+      font-weight: bold; }
+      #events-type #options .a-see-more:hover {
+        text-decoration: underline;
+        cursor: pointer; }
+
+/*# sourceMappingURL=global.css.map */
