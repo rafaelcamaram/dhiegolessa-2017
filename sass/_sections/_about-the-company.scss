@@ -1,0 +1,45 @@
+#about-the-company {
+  width: 100%;
+  background-color: $event-type-background-color;
+  color: #42334f;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  text-align: center;
+
+  h1 {
+    color: #42334f;
+  }
+
+  p {
+    color: #68626d;
+  }
+
+  #faq {
+    margin-top: 50px;
+
+    .a-see-more {
+      color: #42334f;
+      font-size: small;
+      font-weight: bold;
+    }
+
+    .title {
+      text-align: right;
+
+      @media (max-width: 991px) {
+        text-align: center;
+        margin-top: 30px;
+      }
+    }
+
+    .description {
+      text-align: left;
+
+      @media (max-width: 991px) {
+        text-align: center;
+        margin-top: 15px;
+      }
+    }
+  }
+}
