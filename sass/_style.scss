@@ -38,3 +38,21 @@ h4 {
 p {
   font-size: 1.0em !important;
 }
+
+#mini-header {
+  background-color: #181b36;
+  color: #fff;
+  height: 64px;
+
+  .brand-logo {
+    margin-left: 5%;
+
+    @media (max-width: 991px) {
+      margin-left: 0;
+    }
+  }
+}
+
+.purple-mini-header {
+  background-color: #2f213e !important;
+}

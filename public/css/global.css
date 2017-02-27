@@ -28,18 +28,41 @@ h4 {
 p {
   font-size: 1.0em !important; }
 
+#mini-header {
+  background-color: #181b36;
+  color: #fff;
+  height: 64px; }
+  #mini-header .brand-logo {
+    margin-left: 5%; }
+    @media (max-width: 991px) {
+      #mini-header .brand-logo {
+        margin-left: 0; } }
+
+.purple-mini-header {
+  background-color: #2f213e !important; }
+
+#header {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  box-shadow: none !important; }
+  @media (min-width: 993px) {
+    #header #logo {
+      margin-left: 5%; } }
+
 #main-box {
   width: 100%;
   height: 100vh;
   background-image: url(../images/background-banner.png);
   background-attachment: fixed; }
-  #main-box #header {
-    background-color: transparent;
-    position: absolute;
-    top: 0; }
-    @media (min-width: 993px) {
-      #main-box #header #logo {
-        margin-left: 5%; } }
+  #main-box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic; }
+  #main-box p {
+    color: white;
+    font-size: 1.2em !important; }
   #main-box #logo-banner {
     margin-left: auto;
     margin-right: auto; }
@@ -114,6 +137,10 @@ p {
     color: #68626d; }
   #about-the-company #faq {
     margin-top: 50px; }
+    #about-the-company #faq img {
+      -moz-border-radius: 75px;
+      -webkit-border-radius: 75px;
+      border-radius: 75px; }
     #about-the-company #faq .a-see-more {
       color: #42334f;
       font-size: small;
@@ -130,6 +157,12 @@ p {
         #about-the-company #faq .description {
           text-align: center;
           margin-top: 15px; } }
+    #about-the-company #faq .description-left {
+      text-align: left !important; }
+    #about-the-company #faq .description-right {
+      text-align: right !important; }
+    #about-the-company #faq .description-center {
+      text-align: center !important; }
 
 #about-me {
   background-color: #181b36;
@@ -141,19 +174,30 @@ p {
     #about-me {
       background-image: url("../images/dhiego-lessa-about-me2.png");
       background-repeat: no-repeat;
-      background-position-y: bottom; } }
-  #about-me #message-dhiego-lessa {
-    margin-top: 5em; }
-    #about-me #message-dhiego-lessa h2 {
+      background-position-y: bottom;
+      min-height: 550px; } }
+  @media (max-width: 992px) {
+    #about-me #info-about-page {
+      text-align: center; } }
+  #about-me .message {
+    color: white; }
+    #about-me .message .info {
+      font-size: 1.3em;
+      font-weight: 400; }
+    #about-me .message h2 {
       font-style: italic;
       font-weight: bold; }
-    #about-me #message-dhiego-lessa p {
+    #about-me .message p {
       font-size: 1.0em; }
-      #about-me #message-dhiego-lessa p span {
+      #about-me .message p span {
         font-weight: 800; }
-      #about-me #message-dhiego-lessa p .underline {
+      #about-me .message p .underline {
         text-decoration: underline;
         font-weight: 300; }
+  #about-me #message-dhiego-lessa {
+    margin-top: 5em; }
+  #about-me #social-icons-dhiego-lessa {
+    margin-top: 10em; }
 
 #done-events {
   width: 100%;

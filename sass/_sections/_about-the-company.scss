@@ -18,6 +18,12 @@
   #faq {
     margin-top: 50px;
 
+    img {
+      -moz-border-radius: 75px;
+      -webkit-border-radius: 75px;
+      border-radius: 75px;
+    }
+
     .a-see-more {
       color: #42334f;
       font-size: small;
@@ -40,6 +46,18 @@
         text-align: center;
         margin-top: 15px;
       }
+    }
+
+    .description-left {
+      text-align: left !important;
+    }
+
+    .description-right {
+      text-align: right !important;
+    }
+
+    .description-center {
+      text-align: center !important;
     }
   }
 }
