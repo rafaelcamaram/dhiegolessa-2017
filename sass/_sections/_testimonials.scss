@@ -10,7 +10,7 @@
     font-style: italic;
   }
 
-  #testimonials-box {
+  .testimonials-box {
     margin-top: 50px;
   }
 
@@ -41,5 +41,14 @@
     color: #fff;
     font-size: small;
     font-weight: bold;
+  }
+
+  .back-white {
+    color: #fff;
+    font-size: small;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

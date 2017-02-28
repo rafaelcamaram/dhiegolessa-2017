@@ -252,7 +252,7 @@ p {
   padding-bottom: 80px; }
   #testimonials h2 {
     font-style: italic; }
-  #testimonials #testimonials-box {
+  #testimonials .testimonials-box {
     margin-top: 50px; }
   #testimonials .item {
     padding-right: 10px;
@@ -273,6 +273,11 @@ p {
     color: #fff;
     font-size: small;
     font-weight: bold; }
+  #testimonials .back-white {
+    color: #fff;
+    font-size: small; }
+    #testimonials .back-white:hover {
+      text-decoration: underline; }
 
 #footer {
   width: 100%;
